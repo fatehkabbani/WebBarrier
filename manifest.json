@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name": "WebBarrier",
+    "version": "0.",
+    "description": "WebBarrier: Block sites instantly, add notes, and regain focus",
+    "action":{
+        "default_popup": "popups/index.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["scripts/index.js"]
+        }
+    ]
+}
