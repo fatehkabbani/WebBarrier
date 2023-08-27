@@ -43,7 +43,7 @@ main section {
 #description,
 #block {
   width: 100%;
-  margin: 0 0 var(--spacing);
+  margin: 0 var(--spacing) 0 0;
 }
 #line-through {
   width: 100%;
@@ -55,4 +55,18 @@ main section {
 #line-through span {
   background: #fff;
   padding: 0 10px;
+}
+section + span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dashboard-link{
+  font-size:1rem;
+  color:inherit;
+  text-decoration: none;
+}
+#dashboard-link:hover{
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
