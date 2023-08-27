@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+:root{
+  --spacing: 1.25rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+#field-container {
+  margin: var(--spacing);
+}
+#field-container h1 {
+  font-family: 'Signika', sans-serif;
+  letter-spacing: .8px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: var(--spacing);
+}
+#block-form {
+  display: flex;
+}
+#url-input {
+  font-size: 0.9rem;
+}
+input,
+button {
+  border: 1px solid rgba(24, 20, 18, 0.12);
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+button {
+  cursor: pointer;
+}
+button:hover{
+    background-color: rgb(24, 20, 18);
+    color: rgb(255, 255, 255);
+}
+main section {
+  margin: var(--spacing);
+}
+#description,
+#block {
+  width: 100%;
+  margin: 0 0 var(--spacing);
+}
+#line-through {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+#line-through span {
+  background: #fff;
+  padding: 0 10px;
+}

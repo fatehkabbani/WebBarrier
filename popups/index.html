@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
-    <link rel="stylesheet" href="../styles/style.css">
+  <head>
+    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
-    <main class="container">
-      <div id="field-container">
-        <h1>Web Barrier</h1>
-        <section>
-          <input type="text" placeholder="website url" />
+    <main id="field-container">
+      <h1>Web Barrier</h1>
+      <section id="block-form">
+          <input type="text" id="url-input" placeholder="website url" />
           <button>block</button>
-          <div>
-            <textarea>
-              
-            </textarea>
-          </div>
-        </section>
-        <section>
-          <button>Block this website</button>
-        </section>
-        <div>
-          
-        </div>
-      </div>
+      </section>
+      <section>
+        <input id="description" placeholder="description"></input>
+        <p id="line-through">
+          <span> OR </span>
+        </p>
+        <button id="block">Block this website</button>
+      </section>
+      <div></div>
     </main>
   </body>
 </html>
